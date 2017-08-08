@@ -9,5 +9,5 @@ Textlocal sms library integration for codeigniter. Send textlocal sms using code
   "SenderName" with your sender name. 
   Save the file.
 3. Finally textlocal sms setup completed. You can able to send sms by loading the library where you want in your code
-  # 	$this->load->library('setupfile');
-  # 	$this->setupfile->send("9000000000", "Hello there this is message");
+  $this->load->library('setupfile');
+  $this->setupfile->send("9000000000", "Hello there this is message");
