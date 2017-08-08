@@ -5,7 +5,7 @@ Textlocal sms library integration for codeigniter. Send textlocal sms using code
 1. Download the application folder.
 2. Open the folder application/libraries & edit Setupfile.php and configure 
   "username"=> 'your@email.com'
-  "hash"=> 'Your hash code here'
+  "hash"=> 'Your hash code here' & 
   "SenderName" with your sender name. 
   Save the file.
 3. Finally textlocal sms setup completed. You can able to send sms by loading the library where you want in your code
