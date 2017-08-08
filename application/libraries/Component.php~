@@ -9,13 +9,13 @@ class Component {
 * Parameters are the message, sender number what you register with textlocal & number which is a sms receivers number.
 */
 
-  function sendsms($number, $message, $sender){
+  function sendsms($number, $message){
 
-    $data=array("username"=>'your@email.com',"hash"=>'Your hash code here','apikey'=>false);
     $ci = & get_instance();
-    $ci->load->library('textlocal',$data);
-
+    $data=array("username"=>'your@email.com',"hash"=>'Your hash code here','apikey'=>false);
+    $sender  = "SenderName";
     $numbers = array($number);
+    $ci->load->library('textlocal',$data);
 
     $response = $ci->textlocal->sendSms($numbers, $message, $sender);
   return $response;
