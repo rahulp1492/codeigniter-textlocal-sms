@@ -1,12 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-/*
-* After creating your textlocal account. You can user this codeigniter library to send messages.
-* This is the file where you have to set your hash code and user name
-* Parameters are the message, sender number what you register with textlocal & number which is a sms receivers number.
-*/
-
 class Setupfile {
 
   function send($number, $message)
