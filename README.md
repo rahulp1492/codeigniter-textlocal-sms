@@ -1,4 +1,4 @@
-# This library not maintained.
+# This library is not maintained after build.
 
 # Codeigniter Textlocal SMS Library
 Textlocal sms library integration for codeigniter. Send textlocal sms using codeigniter manipulated library.
